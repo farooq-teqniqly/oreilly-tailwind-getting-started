@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Header from "./Header";
+// import Header from "./Header";
+import Alert from "./Alert";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <React.StrictMode>
-    <Header />
+    {/* <Header /> */}
+    <Alert>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Alert>
+    <Alert type="warn">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Alert>
   </React.StrictMode>,
 );
 
