@@ -8,7 +8,6 @@ interface Props {
 function Alert({ type = "info", children }: Props) {
   const infoClasses = "flex flex-col p-4 pt-2 w-full border-l-8 border-blue-500 bg-blue-100";
   const warnClasses = "flex flex-col p-4 pt-2 w-full border-l-8 border-red-500 bg-red-100";
-
   const alertClasses = type === "info" ? infoClasses : warnClasses;
 
   return (
