@@ -4,7 +4,7 @@ function Article() {
   return (
     <div className={`m-6 md:mx-auto p-9 space-y-6 md:w-1/2 xl:w-1/3 bg-sky-50`}>
       <p
-        className={`first-letter:-mt-2 first-letter:mr-3 first-letter:float-left first-letter:text-7xl first-letter:font-bold first-line:uppercase first-line:tracking-widest`}
+        className={`first-letter:-mt-2 first-letter:mr-3 first-letter:float-left first-letter:text-7xl first-letter:font-bold first-letter:text-cyan-400 first-line:uppercase first-line:tracking-widest first-line:text-cyan-600`}
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius vitae ipsum et
         commodo. In scelerisque est magna, ut fringilla purus congue eu. Mauris id metus ac metus
@@ -12,7 +12,9 @@ function Article() {
         Donec varius mattis facilisis. Morbi rhoncus erat vel erat pellentesque suscipit. Nunc
         dictum euismod libero sed tristique.
       </p>
-      <blockquote className={`px-4 py-2 block border-1-4 italic font-light`}>
+      <blockquote
+        className={`px-4 py-2 block border-l-4 border-cyan-400 italic font-light bg-gradient-to-r from-teal-100 to-cyan-300`}
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius vitae ipsum et
         commodo. In scelerisque est magna, ut fringilla purus congue eu. Mauris id metus ac metus
         porta aliquet.
@@ -54,7 +56,7 @@ function Article() {
         euismod ac lacus ac molestie. Nam sem lectus, malesuada a ipsum vitae, viverra condimentum
         elit. Ut at vulputate tortor, nec suscipit leo. In non dolor nec purus semper tempus:
       </p>
-      <ul className={`ml-6 pl-6 space-y-3 list-disc`}>
+      <ul className={`ml-6 pl-6 space-y-3 list-disc marker:text-cyan-400 text-gray-600`}>
         <li>First item</li>
         <li>Second item</li>
         <li>Third item</li>
@@ -67,19 +69,19 @@ function Article() {
         non velit semper elementum. Donec scelerisque magna nibh, at efficitur elit hendrerit id.
         Aenean sagittis lectus odio, eu varius lectus vestibulum eget. Sed gravida mattis auctor.
       </p>
-      <hr></hr>
+      <hr className={`border-cyan-600`}></hr>
       <div className={`flex pt-6`}>
         <img
-          className={`mr-6 mb-6 w-24 h-24 rounded border-4 border-b-[16px]`}
+          className={`mr-6 mb-6 w-24 h-24 rounded border-4 border-b-[16px] border-red-600`}
           src="https://source.unsplash.com/ZEfzyduAyJU"
           alt=""
         />
         <div>
-          <p className={`-mt-3 font-semibold`}>David Smith</p>
+          <p className={`-mt-3 font-semibold text-amber-900`}>David Smith</p>
           <p className={`mt-2 text-sm`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas{" "}
             <a
-              className={`underline underline-offset-1 decoration-1 decoration-wavy`}
+              className={`underline underline-offset-1 decoration-1 decoration-wavy decoration-cyan-600 hover:text-cyan-600`}
               href="https://xrolcddbqn.cx"
             >
               varius vitae
