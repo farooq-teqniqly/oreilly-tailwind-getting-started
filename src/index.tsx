@@ -2,15 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import Header from "./Header";
-import Alert from "./Alert";
+// import Alert from "./Alert";
+import Article from "./Article";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <React.StrictMode>
     {/* <Header /> */}
-    <Alert>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Alert>
-    <Alert type="warn">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Alert>
+    {/* <Alert>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Alert>
+    <Alert type="warn">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Alert> */}
+    <Article></Article>
   </React.StrictMode>,
 );
 
