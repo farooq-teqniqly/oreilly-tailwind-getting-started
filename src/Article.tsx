@@ -3,19 +3,21 @@ import React from "react";
 function Article() {
   return (
     <div className={`m-6 md:mx-auto p-9 space-y-6 md:w-1/2 xl:w-1/3 bg-sky-50`}>
-      <p>
+      <p
+        className={`first-letter:-mt-2 first-letter:mr-3 first-letter:float-left first-letter:text-7xl first-letter:font-bold first-line:uppercase first-line:tracking-widest`}
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius vitae ipsum et
         commodo. In scelerisque est magna, ut fringilla purus congue eu. Mauris id metus ac metus
         porta aliquet. Aliquam quam ipsum, consequat malesuada lectus nec, blandit condimentum enim.
         Donec varius mattis facilisis. Morbi rhoncus erat vel erat pellentesque suscipit. Nunc
         dictum euismod libero sed tristique.
       </p>
-      <blockquote className={`px-4 py-2 block border-1-4`}>
+      <blockquote className={`px-4 py-2 block border-1-4 italic font-light`}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius vitae ipsum et
         commodo. In scelerisque est magna, ut fringilla purus congue eu. Mauris id metus ac metus
         porta aliquet.
       </blockquote>
-      <p>
+      <p className={`indent-6`}>
         Aliquam id nulla dignissim felis bibendum aliquam. Cras vulputate blandit semper. Nam quam
         dolor, tincidunt non odio ac, condimentum molestie justo. In ornare maximus tortor, aliquam
         consequat arcu sagittis id. Vivamus condimentum varius ante, pulvinar laoreet tortor
@@ -32,7 +34,7 @@ function Article() {
         src="https://source.unsplash.com/ZEfzyduAyJU"
         alt=""
       />
-      <p>
+      <p className={`indent-6`}>
         Vestibulum congue felis at posuere commodo. Praesent sapien magna, aliquet ut efficitur et,
         luctus at neque. Donec vitae nunc convallis, maximus ex sit amet, consequat tellus. Aenean
         eleifend cursus urna, sed fermentum felis cursus eget. Sed accumsan hendrerit turpis at
@@ -43,7 +45,7 @@ function Article() {
         et, sagittis vitae velit. Class aptent taciti sociosqu ad litora torquent per conubia
         nostra, per inceptos himenaeos.
       </p>
-      <p>
+      <p className={`indent-6`}>
         Aenean scelerisque urna id dictum tempor. Pellentesque ipsum orci, convallis eget purus nec,
         placerat laoreet nulla. Nullam vitae lectus porta, lacinia neque at, rutrum felis. Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus, magna eget gravida
@@ -52,7 +54,7 @@ function Article() {
         euismod ac lacus ac molestie. Nam sem lectus, malesuada a ipsum vitae, viverra condimentum
         elit. Ut at vulputate tortor, nec suscipit leo. In non dolor nec purus semper tempus:
       </p>
-      <ul className={`ml-6 pl-6 space-y-3`}>
+      <ul className={`ml-6 pl-6 space-y-3 list-disc`}>
         <li>First item</li>
         <li>Second item</li>
         <li>Third item</li>
@@ -73,10 +75,13 @@ function Article() {
           alt=""
         />
         <div>
-          <p className={`-mt-3`}>David Smith</p>
-          <p className={`mt-2`}>
+          <p className={`-mt-3 font-semibold`}>David Smith</p>
+          <p className={`mt-2 text-sm`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas{" "}
-            <a className={`underline underline-offset-1`} href="https://xrolcddbqn.cx">
+            <a
+              className={`underline underline-offset-1 decoration-1 decoration-wavy`}
+              href="https://xrolcddbqn.cx"
+            >
               varius vitae
             </a>{" "}
             ipsum et commodo.
