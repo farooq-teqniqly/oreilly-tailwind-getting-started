@@ -32,7 +32,7 @@ function Article() {
         scelerisque massa.
       </p>
       <img
-        className={`mr-3 w-1/2 float-left rounded`}
+        className={`mr-3 w-1/2 float-left rounded hover:sepia hover:drop-shadow-lg [clip-path:circle(80%_at_30%_20%)] [shape-outside:circle(80%_at_30%_20%)]`}
         src="https://source.unsplash.com/ZEfzyduAyJU"
         alt=""
       />
@@ -72,7 +72,7 @@ function Article() {
       <hr className={`border-cyan-600`}></hr>
       <div className={`flex pt-6`}>
         <img
-          className={`mr-6 mb-6 w-24 h-24 rounded border-4 border-b-[16px] border-red-600`}
+          className={`mr-6 mb-6 w-24 h-24 rounded border-4 border-b-[16px] border-red-600 shadow-md shadow-red-900`}
           src="https://source.unsplash.com/ZEfzyduAyJU"
           alt=""
         />
