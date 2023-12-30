@@ -72,7 +72,7 @@ function Article() {
       <hr className={`border-cyan-600`}></hr>
       <div className={`flex pt-6`}>
         <img
-          className={`mr-6 mb-6 w-24 h-24 rounded border-4 border-b-[16px] border-red-600 shadow-md shadow-red-900`}
+          className={`mr-6 mb-6 w-24 h-24 rounded border-4 border-b-[16px] border-red-600 shadow-md shadow-red-900 origin-bottom-left -rotate-6 hover:rotate-0 hover:scale-110 transition duration-500`}
           src="https://source.unsplash.com/ZEfzyduAyJU"
           alt=""
         />
