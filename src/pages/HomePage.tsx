@@ -6,7 +6,7 @@ const fontWeights = [200, 400, 800];
 
 function HomePage() {
   return (
-    <div className={`flex flex-col px-4 py-3 text-center text-xl`}>
+    <div>
       <div>React starter app styled with TailwindCSS</div>
       <div>
         <span>And FontAwesome icons.</span>
