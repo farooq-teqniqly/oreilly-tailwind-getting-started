@@ -1,5 +1,3 @@
-import React from "react";
-
 function NotFoundErrorPage() {
   return (
     <div className={`text-center p-4 flex flex-col`}>
